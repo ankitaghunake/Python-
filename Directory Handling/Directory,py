@@ -1,0 +1,16 @@
+import os
+
+os.mkdir("demo_dir")
+print("'demo_dir' is created.")
+
+os.rename("demo_dir", "renamed_dir")
+print(" 'demo_dir' is renamed to 'renamed_dir'.")
+
+contents = os.listdir("renamed_dir")
+print(" Contents of 'renamed_dir':", contents)
+
+
+
+
+
+
